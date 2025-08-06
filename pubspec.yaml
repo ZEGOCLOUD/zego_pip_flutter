@@ -4,9 +4,9 @@ version: 0.0.1
 homepage: https://www.zegocloud.com/
 repository: https://github.com/ZEGOCLOUD/zego_pip_flutter
 screenshots:
-  - description: "android"
+  - description: "Android Picture-in-Picture demo showing video playback in floating window"
     path: images/android.gif
-  - description: "ios"
+  - description: "iOS Picture-in-Picture demo showing video playback in floating window"
     path: images/ios.gif
 
 environment:
