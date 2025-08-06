@@ -5,7 +5,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:zego_express_engine/zego_express_engine.dart';
 
-import 'package:zego_pip/core/private/defines.dart';
 import 'package:zego_pip/core/channel/zego_pip_platform_interface.dart';
 import 'package:zego_pip/core/private/stream_data.dart';
 import 'package:zego_pip/core/defines.dart';

@@ -58,15 +58,12 @@ class ZegoPIPVideoView extends StatefulWidget {
 
 class _ZegoPIPVideoViewState extends State<ZegoPIPVideoView> {
   ZegoStreamInfo? streamInfo;
-  Future<ZegoStreamInfo>? _streamInfoFuture;
 
   @override
   void initState() {
     super.initState();
 
-    _streamInfoFuture = ZegoPIP().private.streamData.startPlayStream(
-      widget.streamID,
-    );
+    ZegoPIP().private.streamData.startPlayStream(widget.streamID);
   }
 
   @override

@@ -1,4 +1,4 @@
-library zego_pip;
+library;
 
 export 'core/zego_pip.dart';
 export 'core/defines.dart';

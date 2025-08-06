@@ -1,5 +1,3 @@
-import 'dart:io' show Platform;
-
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'package:zego_pip/core/channel/zego_pip_method_channel.dart';

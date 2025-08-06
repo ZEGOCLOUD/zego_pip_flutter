@@ -3,7 +3,6 @@ import 'dart:io';
 import 'package:floating/floating.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:zego_express_engine/zego_express_engine.dart';
-import 'package:zego_pip/core/private/defines.dart';
 import 'package:zego_pip/core/private/zego_pip_private.dart';
 
 import 'package:zego_pip/core/defines.dart';
@@ -123,11 +122,8 @@ class ZegoPIP {
 
     if (expressConfig?.room?.canLoginRoom ?? false) {
       final result = await ZegoExpressEngine.instance.loginRoom(
-        expressConfig!.room!.roomID ?? '',
-        ZegoUser(
-          expressConfig.room!.userID ?? '',
-          expressConfig.room!.userName ?? '',
-        ),
+        expressConfig!.room!.roomID,
+        ZegoUser(expressConfig.room!.userID, expressConfig.room!.userName),
         config: ZegoRoomConfig(0, true, ''),
       );
       if (0 != result.errorCode) {
