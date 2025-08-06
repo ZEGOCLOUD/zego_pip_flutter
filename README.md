@@ -8,11 +8,10 @@ A Flutter Picture-in-Picture (PIP) plugin based on `zego_express_engine`, suppor
 
 ### iOS Platform
 
-![iOS PIP Demo](https://github.com/ZEGOCLOUD/zego_pip_flutter/blob/master/images/ios.gif)
-
+![iOS PIP Demo](https://media-resource.spreading.io/docuo/workspace741/896bc39e2e65b82d5670b01b7c131c30/f4d7ee5447.gif)
 ### Android Platform
 
-![Android PIP Demo](https://github.com/ZEGOCLOUD/zego_pip_flutter/blob/master/images/android.gif)
+![Android PIP Demo](https://media-resource.spreading.io/docuo/workspace741/896bc39e2e65b82d5670b01b7c131c30/c7d1bf500a.gif)
 
 ## Features
 
