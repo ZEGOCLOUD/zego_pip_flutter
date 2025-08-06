@@ -46,7 +46,7 @@ class ZegoPIP {
   /// Current version of the PIP plugin.
   ///
   /// Returns the version string of the zego_pip plugin.
-  String get version => "0.1";
+  String get version => "0.0.2";
 
   /// Initialize the PIP functionality.
   ///
