@@ -3,6 +3,8 @@ PODS:
   - integration_test (0.0.1):
     - Flutter
   - Masonry (1.1.0)
+  - permission_handler_apple (9.3.0):
+    - Flutter
   - zego_express_engine (3.21.0):
     - Flutter
   - zego_pip (0.0.1):
@@ -13,6 +15,7 @@ PODS:
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
   - zego_express_engine (from `.symlinks/plugins/zego_express_engine/ios`)
   - zego_pip (from `.symlinks/plugins/zego_pip/ios`)
 
@@ -25,6 +28,8 @@ EXTERNAL SOURCES:
     :path: Flutter
   integration_test:
     :path: ".symlinks/plugins/integration_test/ios"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
   zego_express_engine:
     :path: ".symlinks/plugins/zego_express_engine/ios"
   zego_pip:
@@ -34,9 +39,10 @@ SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  permission_handler_apple: 4ed2196e43d0651e8ff7ca3483a069d469701f2d
   zego_express_engine: 1164f43c703759f55e0751377425f660d15b2904
   zego_pip: a292ace6f97a22120f65b4d370f66bb1e9d6a10f
 
-PODFILE CHECKSUM: 251cb053df7158f337c0712f2ab29f4e0fa474ce
+PODFILE CHECKSUM: f86b5e368532edbab0d59ed710c0d2870b73cf51
 
 COCOAPODS: 1.16.2

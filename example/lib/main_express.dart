@@ -4,6 +4,9 @@ import 'dart:async';
 import 'package:zego_express_engine/zego_express_engine.dart';
 import 'package:zego_pip/zego_pip.dart';
 
+/// player demo
+/// create the express engine outside
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -50,9 +53,11 @@ class ZegoExpressManager {
 
     await ZegoExpressEngine.createEngineWithProfile(
       ZegoEngineProfile(
-        1234567890,
+        // Please fill in your own app id
+        ,
         ZegoScenario.Default,
-        appSign: 'your app sign',
+        // Please fill in your own app sign
+        appSign: ,
 
         /// Please ensure that `enablePlatformView` is set to true
         enablePlatformView: true,

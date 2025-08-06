@@ -3,6 +3,9 @@ import 'dart:async';
 
 import 'package:zego_pip/zego_pip.dart';
 
+/// player demo
+/// create the express engine by zego_pip
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -11,9 +14,9 @@ Future<void> main() async {
     expressConfig: ZegoPIPExpressConfig(
       create: ZegoPIPExpressCreateConfig(
         // Please fill in your own app id
-        appID: 1234567890,
+        appID: ,
         // Please fill in your own app sign
-        appSign: 'your_app_sign_here',
+        appSign: ,
       ),
       room: ZegoPIPExpressRoomConfig(
         // Please fill in your own room id
