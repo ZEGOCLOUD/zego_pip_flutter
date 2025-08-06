@@ -1,0 +1,42 @@
+PODS:
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - Masonry (1.1.0)
+  - zego_express_engine (3.21.0):
+    - Flutter
+  - zego_pip (0.0.1):
+    - Flutter
+    - Masonry
+    - zego_express_engine
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - zego_express_engine (from `.symlinks/plugins/zego_express_engine/ios`)
+  - zego_pip (from `.symlinks/plugins/zego_pip/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  zego_express_engine:
+    :path: ".symlinks/plugins/zego_express_engine/ios"
+  zego_pip:
+    :path: ".symlinks/plugins/zego_pip/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  zego_express_engine: 1164f43c703759f55e0751377425f660d15b2904
+  zego_pip: a292ace6f97a22120f65b4d370f66bb1e9d6a10f
+
+PODFILE CHECKSUM: 251cb053df7158f337c0712f2ab29f4e0fa474ce
+
+COCOAPODS: 1.16.2
